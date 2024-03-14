@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-from lib.db_embeddings import DBEmbeddings
+from src.db_embeddings import DBEmbeddings
 
 load_dotenv()
 client = OpenAI()

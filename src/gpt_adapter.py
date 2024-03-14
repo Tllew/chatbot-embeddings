@@ -1,7 +1,7 @@
 from openai import OpenAI
 from dotenv import load_dotenv
-from lib.db_embeddings import DBEmbeddings
-from lib.embeddings import get_embedding
+from src.db_embeddings import DBEmbeddings
+from src.embeddings import get_embedding
 
 load_dotenv()
 
